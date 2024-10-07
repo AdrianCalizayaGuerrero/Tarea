@@ -1,0 +1,18 @@
+.encabezado{
+    display: grid;
+    grid-template-columns: 15%,60%,15%;
+    grid-template-rows: 10%,80%,10%;
+    background-color: darkslategrey;
+}
+.titulo{
+    font-family: cursive;
+    font-size: 50px;
+}
+.contenedo{
+    display: block;
+    align-items: center;
+    align-content: center;
+    background-color: cornflowerblue;
+    width: auto;
+    height: auto;
+}
