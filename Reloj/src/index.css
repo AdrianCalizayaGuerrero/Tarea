@@ -2,10 +2,8 @@
 
 body{
     display: grid;
-    height: 500px;
-    width: 500px;
-    grid-template-columns: 5%,90%,5%;
-    grid-template-rows: 10%,40%,40%,10%;
+    grid-template-columns: 50px,800px,50px;
+    grid-template-rows: 40px,400px,400px,40px;
 }
 main{
     display: grid;
@@ -16,8 +14,6 @@ main{
     display: grid;
     grid-column-start: 2;
     grid-row-start: 1;
-    grid-template-columns: 15%,60%,15%;
-    grid-template-rows: 10%,80%,10%;
     background-color: darkslategrey;
 }
 .titulo{
